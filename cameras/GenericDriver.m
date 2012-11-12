@@ -1021,7 +1021,7 @@ static bool startNextIsochRead(GenericGrabContext * gCtx, int transferIdx)
                                                  (IOAsyncCallback1) (isocComplete),
                                                  gCtx);
     
-    gCtx->initiatedUntil += gCtx->numberOfFramesPerTransfer;
+    gCtx->initiatedUntil += gCtx->numberOfFramesPerTransfer / 8; // HACK: For high speed USB device. Breaks full speed.
     
     switch (error) 
     {

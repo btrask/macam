@@ -22,6 +22,18 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		B59E47D91649D7E00058FDEB /* STK1160Driver.h in Headers */ = {isa = PBXBuildFile; fileRef = B59E47D71649D7E00058FDEB /* STK1160Driver.h */; };
+		B59E47DA1649D7E00058FDEB /* STK1160Driver.m in Sources */ = {isa = PBXBuildFile; fileRef = B59E47D81649D7E00058FDEB /* STK1160Driver.m */; };
+		B59E47DB1649D7E00058FDEB /* STK1160Driver.h in Headers */ = {isa = PBXBuildFile; fileRef = B59E47D71649D7E00058FDEB /* STK1160Driver.h */; };
+		B59E47DC1649D7E00058FDEB /* STK1160Driver.m in Sources */ = {isa = PBXBuildFile; fileRef = B59E47D81649D7E00058FDEB /* STK1160Driver.m */; };
+		B59E47DD1649D7E00058FDEB /* STK1160Driver.h in Headers */ = {isa = PBXBuildFile; fileRef = B59E47D71649D7E00058FDEB /* STK1160Driver.h */; };
+		B59E47DE1649D7E00058FDEB /* STK1160Driver.m in Sources */ = {isa = PBXBuildFile; fileRef = B59E47D81649D7E00058FDEB /* STK1160Driver.m */; };
+		B59E47F71649D8160058FDEB /* SAA711XChip.h in Headers */ = {isa = PBXBuildFile; fileRef = B59E47F51649D8160058FDEB /* SAA711XChip.h */; };
+		B59E47F81649D8160058FDEB /* SAA711XChip.m in Sources */ = {isa = PBXBuildFile; fileRef = B59E47F61649D8160058FDEB /* SAA711XChip.m */; };
+		B59E47F91649D8160058FDEB /* SAA711XChip.h in Headers */ = {isa = PBXBuildFile; fileRef = B59E47F51649D8160058FDEB /* SAA711XChip.h */; };
+		B59E47FA1649D8160058FDEB /* SAA711XChip.m in Sources */ = {isa = PBXBuildFile; fileRef = B59E47F61649D8160058FDEB /* SAA711XChip.m */; };
+		B59E47FB1649D8160058FDEB /* SAA711XChip.h in Headers */ = {isa = PBXBuildFile; fileRef = B59E47F51649D8160058FDEB /* SAA711XChip.h */; };
+		B59E47FC1649D8160058FDEB /* SAA711XChip.m in Sources */ = {isa = PBXBuildFile; fileRef = B59E47F61649D8160058FDEB /* SAA711XChip.m */; };
 		F50132C00FA8D9C6006E1027 /* SQ905C.h in Headers */ = {isa = PBXBuildFile; fileRef = F50132BE0FA8D9C6006E1027 /* SQ905C.h */; };
 		F50132C10FA8D9C6006E1027 /* SQ905C.m in Sources */ = {isa = PBXBuildFile; fileRef = F50132BF0FA8D9C6006E1027 /* SQ905C.m */; };
 		F50132C20FA8D9C6006E1027 /* SQ905C.h in Headers */ = {isa = PBXBuildFile; fileRef = F50132BE0FA8D9C6006E1027 /* SQ905C.h */; };
@@ -896,6 +908,10 @@
 		39CBD64F03DC0D79000F7EFC /* MyKiaraFlippedDriver.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = MyKiaraFlippedDriver.m; sourceTree = "<group>"; };
 		39CBD65003DC0D79000F7EFC /* MyKiaraFlippedDriver.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MyKiaraFlippedDriver.h; sourceTree = "<group>"; };
 		39FE214904030BB800BAABE7 /* ICD_CameraCalls.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ICD_CameraCalls.h; sourceTree = "<group>"; };
+		B59E47D71649D7E00058FDEB /* STK1160Driver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STK1160Driver.h; sourceTree = "<group>"; };
+		B59E47D81649D7E00058FDEB /* STK1160Driver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STK1160Driver.m; sourceTree = "<group>"; };
+		B59E47F51649D8160058FDEB /* SAA711XChip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAA711XChip.h; sourceTree = "<group>"; };
+		B59E47F61649D8160058FDEB /* SAA711XChip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAA711XChip.m; sourceTree = "<group>"; };
 		F500FB6D022FB1BD01369AA6 /* Global */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = Global; path = app.icns; sourceTree = "<group>"; };
 		F500FB6E022FB1BD01369AA6 /* DownloadToolbarItem.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = DownloadToolbarItem.tiff; sourceTree = "<group>"; };
 		F500FB6F022FB1BD01369AA6 /* NextCamToolbarItem.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = NextCamToolbarItem.tiff; sourceTree = "<group>"; };
@@ -1417,6 +1433,8 @@
 				F5217D5A0CDB84A7001F446D /* OV7670.m */,
 				F530194D0DF5E72A00B9B778 /* OV7F7F.h */,
 				F530194E0DF5E72A00B9B778 /* OV7F7F.m */,
+				B59E47F51649D8160058FDEB /* SAA711XChip.h */,
+				B59E47F61649D8160058FDEB /* SAA711XChip.m */,
 			);
 			path = sensors;
 			sourceTree = "<group>";
@@ -1749,6 +1767,8 @@
 				F50132BF0FA8D9C6006E1027 /* SQ905C.m */,
 				F55679CE0FB4BA4C00DA9877 /* UVCDriver.h */,
 				F55679CF0FB4BA4C00DA9877 /* UVCDriver.m */,
+				B59E47D71649D7E00058FDEB /* STK1160Driver.h */,
+				B59E47D81649D7E00058FDEB /* STK1160Driver.m */,
 			);
 			path = cameras;
 			sourceTree = "<group>";
@@ -1945,6 +1965,8 @@
 				F5025AE10F795A70009D9BED /* TP68xxDriver.h in Headers */,
 				F50132C40FA8D9C6006E1027 /* SQ905C.h in Headers */,
 				F55679D20FB4BA4C00DA9877 /* UVCDriver.h in Headers */,
+				B59E47DB1649D7E00058FDEB /* STK1160Driver.h in Headers */,
+				B59E47F91649D8160058FDEB /* SAA711XChip.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2083,6 +2105,8 @@
 				F5025ADF0F795A70009D9BED /* TP68xxDriver.h in Headers */,
 				F50132C00FA8D9C6006E1027 /* SQ905C.h in Headers */,
 				F55679D40FB4BA4C00DA9877 /* UVCDriver.h in Headers */,
+				B59E47D91649D7E00058FDEB /* STK1160Driver.h in Headers */,
+				B59E47F71649D8160058FDEB /* SAA711XChip.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2217,6 +2241,8 @@
 				F5025AE30F795A70009D9BED /* TP68xxDriver.h in Headers */,
 				F50132C20FA8D9C6006E1027 /* SQ905C.h in Headers */,
 				F55679D00FB4BA4C00DA9877 /* UVCDriver.h in Headers */,
+				B59E47DD1649D7E00058FDEB /* STK1160Driver.h in Headers */,
+				B59E47FB1649D8160058FDEB /* SAA711XChip.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2571,6 +2597,8 @@
 				F50132C50FA8D9C6006E1027 /* SQ905C.m in Sources */,
 				F551A4A00FAF76DD00A8C6FB /* PAC7311Driver.m in Sources */,
 				F55679D30FB4BA4C00DA9877 /* UVCDriver.m in Sources */,
+				B59E47DC1649D7E00058FDEB /* STK1160Driver.m in Sources */,
+				B59E47FA1649D8160058FDEB /* SAA711XChip.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2682,6 +2710,8 @@
 				F5025AE00F795A70009D9BED /* TP68xxDriver.m in Sources */,
 				F50132C10FA8D9C6006E1027 /* SQ905C.m in Sources */,
 				F55679D50FB4BA4C00DA9877 /* UVCDriver.m in Sources */,
+				B59E47DA1649D7E00058FDEB /* STK1160Driver.m in Sources */,
+				B59E47F81649D8160058FDEB /* SAA711XChip.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2791,6 +2821,8 @@
 				F5025AE40F795A70009D9BED /* TP68xxDriver.m in Sources */,
 				F50132C30FA8D9C6006E1027 /* SQ905C.m in Sources */,
 				F55679D10FB4BA4C00DA9877 /* UVCDriver.m in Sources */,
+				B59E47DE1649D7E00058FDEB /* STK1160Driver.m in Sources */,
+				B59E47FC1649D8160058FDEB /* SAA711XChip.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -87,6 +87,7 @@
 #import "TP68xxDriver.h"
 #import "SQ905C.h"
 #import "UVCDriver.h"
+#import "STK1160Driver.h"
 
 #include "unistd.h"
 
@@ -537,6 +538,8 @@ MyCameraCentral* sharedCameraCentral=NULL;
     [self registerCameraDriver:[TP6801Driver class]];
     [self registerCameraDriver:[TP6811Driver class]];
     [self registerCameraDriver:[TP6813Driver class]];
+
+    [self registerCameraDriver:[STK1160Driver class]];
     
 #if EXPERIMENTAL
     [self registerCameraDriver:[CTDC1100Driver class]];      // This is incomplete st this time
